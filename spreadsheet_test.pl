@@ -13,7 +13,7 @@ my $parser   = Spreadsheet::ParseExcel::SaveParser->new();
 my $template = $parser->Parse($path . $filename);
 
 # ---- TODO: Grab range, iterate, and update vals in cells
-# Change to select sheet based on name (typically "Mon day Invoice")
+# Change to select sheet based on name (typically "Month Day Invoice")
 my $worksheet = $template->worksheet($worksheet_idx); 
 my $row  = 15;
 my $col  = 0;
