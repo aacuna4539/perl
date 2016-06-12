@@ -18,7 +18,6 @@ my $worksheet = $template->worksheet($worksheet_idx);
 my $row  = 15;
 my $col  = 0;
 
-# Overwrite the string in cell A1
 # ---- TODO: Don't hardcode val, get from user
 $worksheet->AddCell( $row, $col, '15' );
 
