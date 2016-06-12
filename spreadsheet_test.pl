@@ -21,7 +21,7 @@ my $col  = 0;
 # ---- TODO: Don't hardcode val, get from user
 $worksheet->AddCell( $row, $col, '15' );
 
-# Write over the existing file or write a new file.
+# Write a new file.
 $template->SaveAs($path . "new " . $filename );
 
 # ---- TODO: Formulas must be added to new file -- SaveParser cannot pull them from original file.
